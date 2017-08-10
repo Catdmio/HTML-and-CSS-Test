@@ -25,6 +25,16 @@
 .jumbotron{
 	margin-top: 50px;
 	margin-bottom: 50px;
+	background-image: url(images/IMG_5175.png);
+}
+#Fondogris{
+	color:#ffffff;
+	background-color: rgba(33,33,33,0.5);
+	max-height: 100%;
+	padding:20px;
+}
+#Descripcion{
+	padding:20px;
 }
 
 .col-xs-6 col-md-4{
@@ -43,3 +53,4 @@ ul li{
 list-style: none;
 text-align: center;
 }
+

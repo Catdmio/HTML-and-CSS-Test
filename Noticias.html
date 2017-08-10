@@ -1,42 +1,141 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="miestilo.css">
-<!-- Latest compiled and minified CSS -->
+	<meta charset="utf-8">
+	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Optional theme 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" -->
+
+	<!--Optional Theme-->
+	<link rel="stylesheet" href="sandstone.min.css">
+	
+	<!--Custom stylesheet-->
+	<link rel="stylesheet" type="text/css" href="miestilo.css">
+
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	
-	<link rel="stylesheet" type="text/css" href="miestilo.css">
-	<title> Fundación Asperger | Noticias</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title> Fundación Asperger Chile | Noticias </title>
 </head>
-<body>
-<body>
-<div class="navbar">
-	<ul>
-		<li>Inicio</li>
-		<li>Quienes somos y nuestra misión</li>
-		<li>Noticias</li>
-	</ul>
-</div>
-<div class="jumbotron">
-	<div class="nosotrosbreve"> Somos una agrupación etc, ver más y call to action</div>
-</div>
-<div class="Noticiasmás">
-	<div class="caja"></div>
-	<div class="caja"></div>
-	<div class="caja"></div>
-</div>
-<div class="Footer">
-	<div class="contacto"></div>
-	<div class="RRSS"></div>
-	<div class="mapaiframe"></div>
-	<div class="formcontacto"></div>
-</div>
-</body>
-</html>
+<body style="padding-top: 50px">
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Brand</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#"> Inicio <span class="sr-only">(current)</span></a></li>
+					<li><a href="Nosotros.html"> Nosotros </a></li>
+					<li><a href="Noticias.html"> Noticias </a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="FundacionAsperger_prueba.html">Inicio</a></li>
+							<li><a href="Nosotros.html">Nosotros</a></li>
+							<li><a href="Noticias.html">Noticias</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Quiero Donar</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Contáctanos</a></li>
+						</ul>
+					</li>
+				</ul>
+
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<!--HeroImage with call to action-->
+	<div class="jumbotron"> 
+		<div id="Fondogris" class="container">
+			<h1> Incluir, apoyar y educar </h1>
+			<p>Con tu aporte podremos brindar servicios de Psicólogos, Fonoaudiólogos, Terapia ocupacional y medicamentosa a niños Asperger y de espectro autista <br>¡Únete a las miles de familias a lo largo de Chile!
+			</p>
+			<button type="button" class="btn btn-success">Quiero donar a la causa</button>
+		</div>
+	</div>
+	<!--Brief description of community-->
+	<div class="container">
+		<div class="row">
+			<div id="Descripcion" class=".col-xs-12 .col-md-8" style="text-align: center"> 
+				<p>Somos una agrupación que vela para que los niños Asperger y de espectro autista cuenten con el apoyo multidisciplinario que necesitan. <br>Junto a familias de diferentes realidades socioeconómicas tenemos una visión en común: <br>Brindar una vida escolar que pueda desenvolverse de manera positiva para los padres como sus hijos. Situación tradicionalmente "frustrante" dada a la poca inclusividad o capacidad limitada de profesores y colegios que no cuentan con los recursos necesarios para poder implementar planes educativos especiales. <br> Creemos que nuestra labor ayudará a sensibilizar nuestra sociedad, promoviendo valores como: la inclusividad, reconocimiento a la diversidad y la empatía.</p>
+			</div>
+
+		</div>	
+	</div>
+	<!--News and articles section-->
+	<div class="container">
+		<div class="row">
+			<h2>Novedades</h2>
+			<!--First news-->
+			<div class="col-xs-6 col-md-4"> 
+				<div class="thumbnail">
+					<img src="images/tallermanos_s.jpg" class="img-responsive img-rounded" alt="Taller de Arte">
+					<h5>Inicio de talleres de Teatro, Manos Creando, Habilidades Sociales y Grupo de Apoyo para Padres 2016 </h5></div>
+				</div>
+				<!--Second news-->
+				<div class="col-xs-6 col-md-4">
+					<div class="thumbnail">
+						<img src="images/etica_s.jpg" class="img-responsive img-rounded" alt="Etica en tiempos de autismo">
+						<h5> Ética en los tiempos del Autismo (Día Internacional del Síndrome de Asperger) </h5> </div></div>
+						<!--Third news-->
+						<div class="col-xs-6 col-md-4"> 
+							<div class="thumbnail">
+								<img src="images/Jorgito_150x150.jpg" class="img-responsive img-rounded" alt="Carta a Jorgito">
+								<h5>Carta a mi Jorgito</h5> </div></div>
+							</div>
+						</div>
+<!--Footer-->
+
+				<footer class="footer">
+					<div class="container">
+						<div class="row">
+
+							<div class="col-xs-6 col-md-4">
+								<ul>
+						 			<li>Fundación Asperger Chile</li>
+									<li>Oficina 2129,</li>
+									<li>Calle Luis Beltrán 2125</li>
+									<li>Nuñoa, Santiago</li>
+									<li>Tel: +56 (9) 9886 0008</li>
+									<li>Email: contacto@fundacionasperger.cl</li>
+								</ul>
+							</div>
+						
+							<div class="col-xs-6 col-md-4">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7206.443961114347!2d-70.60737998032327!3d-33.44738355180334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf9a04ba6fa1%3A0x7d12a940a4bc933b!2sAutismo+Cind!5e0!3m2!1ses-419!2scl!4v1502321266495" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</div>
+
+							<div class="col-xs-6 col-md-4"> 
+								<form>
+									<div class="form-group">
+									<label for="exampleInputEmail1">Tu email</label>
+										<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+									</div>
+									<textarea class="form-control" rows="3"></textarea>
+									
+									<button type="submit" class="btn btn-default">Enviar</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</footer>
+
+			</body>
+			</html>
